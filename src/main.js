@@ -6,11 +6,10 @@ import router from './router'
 import en from "../src/locale/en" ;
 import my from "../src/locale/my" ;
 
-
-//import bootstrap latest version 
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.bundle';
-// import custom css 
+// import w3 gecory css 
+import "../src/assets/style/main.css" ;
+// import custom css
+import "../src/assets/style/custom.css" ;
 const locale = createI18n({
     locale : "en-US" ,
     messages : {

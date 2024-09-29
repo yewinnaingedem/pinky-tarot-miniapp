@@ -1,0 +1,28 @@
+.h-70-px {
+    height : 70px ;
+}
+.h-100-px {
+    height : 100px ;
+}
+.h-40-px {
+    height: 40px;
+}
+.w-80 {
+    width: 80%;
+}
+.spacing-cus {
+    letter-spacing: 1px;
+}
+.down-arrow {
+    width: 15px;
+    height: 15px;
+}
+.cus-btn {
+    outline: none;
+    border:  none;
+}
+.w-40-px {
+    width: 40px;
+    right: 10px;
+    height: 100%;
+}
