@@ -29,11 +29,38 @@
                                     <span class="spacing-cus">{{includedItem}}</span>
                                 </li>
                             </ul>
-                            <button class="w-100 mx-auto position-relative bg-danger cus-btn h-40-px rounded px-3">
+                            <button class="w-100 mx-auto position-relative mb-3 bg-danger cus-btn h-40-px rounded px-3">
                                 <span class="text-red ">Fill the information</span>
                                 <span class='position-absolute right-0 top-0 w-40-px'>arrow</span>
                             </button>
-
+                            <form>
+                                <div class="mb-3 cus-input">
+                                    <span>Name</span>
+                                    <input type="text" class="bg-transparent border-0 h-100 ps-4" />
+                                </div>
+                                <div class="mb-3 cus-input">
+                                    <span>Birthday</span>
+                                    <input type="text" class="bg-transparent border-0 h-100 ps-4" />
+                                </div>
+                                <div class="mb-3 cus-input">
+                                    <span>Gender</span>
+                                    <input type="text" class="bg-transparent border-0 h-100 ps-4" />
+                                </div>
+                                <div class="mb-3 cus-input">
+                                    <span>Phone</span>
+                                    <input type="text" class="bg-transparent border-0 h-100 ps-4" />
+                                </div>
+                                <div class="mb-3">
+                                    <p class="mb-0 text-red">*Please input the phone number that is used viber or telegram</p>
+                                </div>
+                                <div class="mb-3 row mx-auto">
+                                    <div class="col-1 px-0"><input class="form-control-checkbox" id="accepted" type="checkbox"/></div>
+                                    <div class="col"><label class="text-start" for="accepted">We will be answered your questio within 24 hour that is argee</label></div>
+                                </div>
+                                <router-link  :to="{name : 'success'}" class="h-40-px w-100 d-flex justify-content-center align-items-center rounded bg-red ">
+                                    Submit 
+                                </router-link>
+                            </form>
                         </div>
                     </div>
                 </div>

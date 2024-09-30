@@ -21,6 +21,11 @@ const routes = [
         path : "/tacs",
         name : "tacs" ,
         component : () => import('@/page/TACPage.vue')
+    },
+    {
+        path : '/success' ,
+        name : 'success' ,
+        component : () => import('@/page/SuccessPage.vue')
     }
 ] ;
 
