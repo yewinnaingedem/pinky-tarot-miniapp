@@ -10,17 +10,19 @@ import my from "../src/locale/my" ;
 import "../src/assets/style/main.css" ;
 // import custom css
 import "../src/assets/style/custom.css" ;
-const locale = createI18n({
-    locale : "en-US" ,
-    messages : {
-        "en-US" : en ,
-        "my-MM" : my 
-    }
-})
 
 function startApp () {
+    const lang = createI18n({
+        locale : "en-US" ,
+        legacy : false ,
+        messages : {
+            "en-US" : en ,
+            "my-MM" : my 
+        }
+    })
+    
     createApp(App)
-        .use(locale)
+        .use(lang)
         .use(store)
         .use(router)
     .mount('#app')

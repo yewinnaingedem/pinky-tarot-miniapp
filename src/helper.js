@@ -7,4 +7,4 @@ export const quotes = [
     { text: 'အဆောင်' },
     { text: "အလုပ်အကိုင်" },
     { text: "ပညာရေး" }
-]
+] // need to remove production 
